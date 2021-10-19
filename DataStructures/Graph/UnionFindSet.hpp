@@ -12,7 +12,7 @@ public:
 		}
 	}
 
-	void query(int x) {
+	int query(int x) {
 		if (x == father[x]) {
 			return x;
 		} else {
